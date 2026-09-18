@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="CalorieAI Androidアプリのプライバシーポリシー">
+  <link rel="canonical" href="https://calorieai-diet.com/privacy">
+  <title>プライバシーポリシー | CalorieAI</title>
+  <style>
+    :root { color-scheme: light dark; font-family: system-ui, -apple-system, "Noto Sans JP", sans-serif; }
+    body { margin: 0; background: #f7f8fa; color: #202124; }
+    main { box-sizing: border-box; max-width: 880px; margin: auto; padding: 48px 24px 80px; }
+    article { padding: 48px; border: 1px solid #dfe3e8; border-radius: 20px; background: #fff; box-shadow: 0 8px 28px rgb(0 0 0 / 6%); }
+    h1 { margin: 0 0 8px; font-size: clamp(1.75rem, 5vw, 2.4rem); line-height: 1.35; }
+    h2 { margin: 2.25rem 0 .75rem; padding-bottom: .4rem; border-bottom: 1px solid #dfe3e8; font-size: 1.3rem; }
+    p, li { line-height: 1.85; }
+    li + li { margin-top: .45rem; }
+    .updated { margin: 0 0 2rem; color: #5f6368; }
+    a { color: #1769aa; overflow-wrap: anywhere; }
+    footer { margin-top: 3rem; padding-top: 1.25rem; border-top: 1px solid #dfe3e8; color: #5f6368; }
+    @media (max-width: 600px) { main { padding: 20px 12px 48px; } article { padding: 28px 20px; border-radius: 14px; } }
+    @media (prefers-color-scheme: dark) {
+      body { background: #121416; color: #edf0f2; }
+      article { border-color: #363b40; background: #1d2023; }
+      h2, footer { border-color: #363b40; }
+      .updated, footer { color: #b5bbc1; }
+      a { color: #8bc4ff; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <article>
+      <h1>CalorieAI プライバシーポリシー</h1>
+      <p class="updated">最終更新日: 2026年9月18日</p>
+
+      <p>CalorieAIの開発者（以下「開発者」）は、CalorieAI Androidアプリ（以下「本アプリ」）における利用者情報を、以下のとおり取り扱います。</p>
+
+      <h2>1. 取得する情報</h2>
+      <p>本アプリは、提供する機能に応じて次の情報を取り扱います。</p>
+      <ul>
+        <li>アカウント情報: メールアドレス、認証・セッションに必要な情報。入力されたパスワードを本アプリ独自のデータベースやログへ保存しません。</li>
+        <li>プロフィール・健康関連情報: 性別、身長、生年月日、1日のカロリー目標、体重記録。</li>
+        <li>食事・運動記録: 入力した文章、選択した画像、日時、カロリー・栄養素・運動量、AIによる推定結果とアドバイス。</li>
+        <li>AI機能の運用情報: リクエストの状態、処理時刻、利用回数、モデル、トークン数、推定費用、成功・失敗区分。プロンプトやAI応答の本文、画像、認証情報を運用ログへ保存しません。</li>
+        <li>Google Play課金情報: 商品・プラン、購入状態、有効期限、購入確認・復元・返金・削除処理に必要な取引情報。決済カード情報は本アプリでは取得せず、Google Playが取り扱います。</li>
+        <li>セキュリティ情報: アプリ・ライセンス・端末整合性の検証結果、使い捨てchallenge、監査・不正防止に必要な限定情報。</li>
+        <li>自動診断・利用状況情報: Firebase CrashlyticsおよびGoogle Analytics for Firebaseが自動収集するクラッシュのスタックトレース、関連するアプリ状態、端末・アプリ情報、SDKが生成する識別子、アプリ起動などの自動イベント、クラッシュ直前のbreadcrumbs。本アプリは広告IDの取得と広告パーソナライズを無効にしています。</li>
+      </ul>
+
+      <h2>2. 利用目的</h2>
+      <p>取得した情報は、次の目的で利用します。</p>
+      <ul>
+        <li>アカウント作成、ログイン、本人確認、パスワード再設定</li>
+        <li>食事・運動・体重の記録、カロリー集計、AI推定・アドバイスの提供</li>
+        <li>Premium購読の購入確認、特典付与、復元、解約・失効・返金への対応</li>
+        <li>不正利用の防止、アプリとAPIの保護、障害調査</li>
+        <li>クラッシュ、ANR、利用状況の把握と品質改善</li>
+        <li>法令、Google Playポリシー、利用者からの問い合わせへの対応</li>
+      </ul>
+      <p>取得した情報を販売せず、第三者の広告配信や広告パーソナライズには利用しません。</p>
+
+      <h2>3. 外部サービス</h2>
+      <p>本アプリは、目的達成に必要な範囲で次のサービスを利用します。各事業者は、それぞれの規約・プライバシーポリシーに基づいて情報を処理します。</p>
+      <ul>
+        <li>Supabase: 認証、データ保存、APIおよびサーバー処理</li>
+        <li>Google Gemini Developer API: 食事・運動のAI推定とアドバイス生成に必要な入力の処理</li>
+        <li>Google Play Billing / Google Play Developer API: 購読、購入確認、復元、返金、権利状態の管理</li>
+        <li>Google Play Integrity API: 正規アプリ、ライセンスおよび端末整合性の確認</li>
+        <li>Firebase Crashlytics / Google Analytics for Firebase: クラッシュ診断、ANR、自動イベントによる品質・利用状況の把握</li>
+        <li>Resend: Supabase Authから送信する登録確認・パスワード再設定メールの配送</li>
+      </ul>
+      <p>法令に基づく場合、人の生命・財産の保護に必要な場合、または利用者の同意がある場合を除き、上記の利用目的を超えて情報を第三者へ提供しません。</p>
+
+      <h2>4. 保存期間と削除</h2>
+      <ul>
+        <li>アカウントに紐づくプロフィール、記録、アドバイス、体重、AI利用記録、購読状態は、機能提供に必要な期間またはアカウント削除まで保持します。</li>
+        <li>利用者がアプリ内からアカウント削除を完了すると、アカウントと利用者所有データを直ちに完全削除します。Premium購読中は、Google Playで購読終了と日割り返金を確認してから削除します。</li>
+        <li>同一AI処理の重複実行を防ぐ運用レコードは原則48時間で失効対象になります。</li>
+        <li>成功した課金通知の受信記録は30日、解決済み課金アラートと利用者を識別しないアカウント削除監査は90日を上限として保持します。</li>
+        <li>Crashlytics、Analytics、Google Playその他の外部サービス上の情報は、各サービスの設定・規約・保持方針に従って処理されます。</li>
+        <li>通常の購読解約はアカウント削除ではありません。解約後も確認済みの有効期限まではPremiumを利用でき、アカウントと記録は保持されます。</li>
+      </ul>
+
+      <h2>5. 安全管理</h2>
+      <p>通信の暗号化、認証・アクセス制御、利用者単位のデータ分離、サーバー側の購入・権利検証、ログ項目の制限など、情報の漏えい・改ざん・不正アクセスを防ぐための合理的な対策を講じます。</p>
+
+      <h2>6. 利用者の選択肢</h2>
+      <ul>
+        <li>プロフィール、記録、体重はアプリの各機能から確認・変更できます。</li>
+        <li>Google Playの購読管理画面からPremium購読を管理・解約できます。</li>
+        <li>Settingsの「アカウントを削除」から、アカウントと利用者所有データの削除を申請できます。</li>
+        <li>端末の権限設定から、カメラ・画像へのアクセス権限を変更できます。</li>
+      </ul>
+
+      <h2>7. 本ポリシーの変更</h2>
+      <p>機能、利用サービス、法令またはポリシーの変更に応じて本ポリシーを更新することがあります。重要な変更がある場合は、アプリまたはGoogle Playの掲載情報など、適切な方法で案内します。</p>
+
+      <h2>8. お問い合わせ</h2>
+      <p>CalorieAIのプライバシーに関するお問い合わせ先:</p>
+      <p><a href="mailto:yusuke.development.0000@gmail.com">yusuke.development.0000@gmail.com</a></p>
+
+      <footer><a href="../">CalorieAIトップへ戻る</a></footer>
+    </article>
+  </main>
+</body>
+</html>
